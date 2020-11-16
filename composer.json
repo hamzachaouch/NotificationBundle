@@ -1,0 +1,20 @@
+{
+    "name": "hamdev/notification-bundle",
+    "description": "a great notification bundle",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "hamdev\\NotificationBundle\\": "src/"
+        }
+    },"minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "NotificationBundle"
+        }],
+
+}
