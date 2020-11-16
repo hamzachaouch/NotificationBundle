@@ -1,3 +1,0 @@
-notification.list:
-    path: /listNotificationsByUsers
-    controller: HamDev\NotifcationBundle\Controller\NotificationController::listNotification
