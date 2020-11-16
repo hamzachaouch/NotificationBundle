@@ -10,11 +10,6 @@
         "psr-4": {
             "hamdev\\NotificationBundle\\": "src/"
         }
-    },"minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "NotificationBundle"
-        }]
+    }
 
 }
