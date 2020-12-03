@@ -15,7 +15,8 @@ class NotificationService {
 
     public function getNotification( $idUser)
     {
-        return ["listNotification"=>$this->notificationRepository->findBy(['id_user'=>$idUser]),
+
+        return ["listNotification"=>(array)$this->notificationRepository->findBy(['id_user'=>$idUser]),
             "countNotification"=>count($this->notificationRepository->findBy(['id_user'=>$idUser]))] ;
     }
 
